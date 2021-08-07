@@ -150,7 +150,7 @@ export default function Post({
             </div>
           )}
 
-          {navigation?.prevPost.length > 0 && (
+          {navigation?.nextPost.length > 0 && (
             <div>
               <h3>{navigation.nextPost[0].data.title}</h3>
               <Link href={`/post/${navigation.nextPost[0].uid}`}>
